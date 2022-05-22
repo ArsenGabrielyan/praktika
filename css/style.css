@@ -4,3 +4,22 @@
      box-sizing: border-box;
      text-decoration: none;
 }
+.navbar-dark{
+     background: #000!important;
+     color: #fff!important;
+}
+.navbar-dark .nav-item .nav-link{
+     color: white;
+     padding: 10px 20px;
+}
+.navbar-dark .nav-item .nav-link:hover, .dropdown-item:hover{
+     color: #000!important;
+     background: #ccc!important;
+}
+.btn-search{
+     color: white;
+}
+.btn-search:hover{
+     background: #dc3545;
+     color: white;
+}
