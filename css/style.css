@@ -12,7 +12,7 @@
      color: white;
      padding: 10px 20px;
 }
-.navbar-dark .nav-item .nav-link:hover, .dropdown-item:hover{
+.navbar-dark .nav-item .nav-link:hover, .dropdown-item:hover, .btn-dark:hover{
      color: #000!important;
      background: #ccc!important;
 }
@@ -22,4 +22,43 @@
 .btn-search:hover{
      background: #dc3545;
      color: white;
+}
+section{
+     padding: 50px 0;
+}
+section.dark{
+     background: #000!important;
+     color: #fff!important;
+}
+.gap{
+     margin: 50px 0;
+}
+.bg-dark, .btn-dark{
+     background: #000!important;
+}
+.btn-dark{
+     border: none;
+}
+.card-container{
+     padding: 0 30px;
+}
+.footer{
+    background-color: #f1f1f1!important;
+    padding: 36px 0;
+}
+.footer .sm a{
+     color: #000!important;
+     opacity: 0.65;
+     font-size: 25px;
+}
+.footer p{
+     text-align: center;
+     padding: 20px 0;
+     opacity: 0.65;
+}
+.footer .sm{
+     text-align: center;
+}
+.footer .sm a:hover{
+     opacity: 0.45;
 }
